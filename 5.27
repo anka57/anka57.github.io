@@ -1,0 +1,39 @@
+<html>
+  
+<head> 
+<link rel="stylesheet" href="style.css"> 
+<script>
+function func1() {
+var a = Number(document.getElementById("a_f1_znach").value); 
+var b = Number(document.getElementById("b_f1_znach").value); 
+var c = 0; 
+document.getElementById("otvet1").innerHTML =""
+do { 
+  c=c+a;
+  
+  a++;}
+
+while (b>=a)
+document.getElementById("otvet1").innerHTML =document.getElementById("otvet1").innerHTML+ c+"<br>";
+
+}
+</script>
+
+</head> 
+<body>
+<br>
+<a href="#" onclick="func1()" class="button">1</a> 
+<br>
+<br>
+a= 
+<input type="text" value="1" id="a_f1_znach"> 
+<br>
+<br>
+b= 
+<input type="text" value="5" id="b_f1_znach"> 
+<div id="otvet1"></div> 
+
+ 
+  
+</body>
+</html>
