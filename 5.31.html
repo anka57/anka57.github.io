@@ -1,0 +1,31 @@
+<html>
+
+<head> 
+<link rel="stylesheet" href="3style.css"> 
+<script>
+ function func1() {
+      var n = Number(document.getElementById("opa").value);
+      var c = 0;
+      var i = n;
+      while (i <= 2*n) {
+        c = c + i*i;
+        i++;
+      }
+      document.getElementById("otvet1").innerHTML = c;
+    }
+</script>
+
+</head> 
+<body>
+<br>
+<a href="#" onclick="func1()" class="button">1</a> 
+<br>
+<br>
+n= 
+<input type="text" value="1" id="opa"> 
+<br>
+<br>
+ 
+<div id="otvet1"></div> 
+
+</body>
