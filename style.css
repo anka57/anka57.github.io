@@ -98,8 +98,8 @@ font-size: 7em; text-transform: uppercase;
 color: rgba(0,168,255,0.5);
 text-shadow: 8px 8px 0 rgba(255,0,180,0.5);}
 a1:link, a:visited {
-  background-color: #f44336;
-  color: white;
+  background-color: #white;
+  color: black;
   padding: 14px 25px;
   text-align: center; 
   text-decoration: none;
@@ -107,6 +107,6 @@ a1:link, a:visited {
 }
 
 a1:hover, a:active {
-  background-color: white;
+  background-color: black;
 }
 
