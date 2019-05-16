@@ -1,0 +1,34 @@
+<html>
+<head> 
+<link rel="stylesheet" href="3style.css"> 
+<script>
+ function func1() {
+var n;
+var c = 0; 
+var k = 0; 
+do { 
+n = Number(prompt('Введите n', 5)); 
+k++;
+c=c+n;
+} 
+while (n>0)
+c=c/k;
+document.getElementById("otvet1").innerHTML = +c+  +k; 
+} 
+</script>
+
+</head> 
+<body>
+<br>
+<a href="#" onclick="func1()" class="button">1</a> 
+<br>
+<br>
+
+
+<br>
+<br>
+ 
+<div id="otvet1"></div> 
+
+</body>
+</html>
