@@ -1,0 +1,32 @@
+
+<head> 
+<link rel="stylesheet" href="3style.css"> 
+<script>
+ function func1() {
+n = Number(document.getElementById("n5_znach").value); 
+var c = 0; 
+var k = 1; 
+var i = 1; 
+while (n >= i) { 
+c = c + 1/i*k ; 
+k=k*(-1); 
+i++; 
+} 
+document.getElementById("otvet9").innerHTML = c; 
+    }
+</script>
+
+</head> 
+<body>
+<br>
+<a href="#" onclick="func1()" class="button">1</a> 
+<br>
+<br>
+n= 
+<input type="text" value="1" id="opa"> 
+<br>
+<br>
+ 
+<div id="otvet1"></div> 
+
+</body>
